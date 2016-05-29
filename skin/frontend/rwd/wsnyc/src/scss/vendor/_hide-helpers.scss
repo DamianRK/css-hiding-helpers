@@ -1,0 +1,48 @@
+.hide-xsmall {
+    @include bp(max-width, $bp-xsmall) {
+        display: none;
+    }
+}
+.hide-small {
+    @include bp(min-width, $bp-xsmall + 1) {
+        @include bp(max-width, $bp-small) {
+            display: none;
+        }
+    }
+}
+.hide-medium {
+    @include bp(min-width, $bp-small + 1) {
+        @include bp(max-width, $bp-medium) {
+            display: none;
+        }
+    }
+}
+.hide-large {
+    @include bp(min-width, $bp-medium + 1) {
+        @include bp(max-width, $bp-large) {
+            display: none;
+        }
+    }
+}
+.hide-xlarge {
+    @include bp(min-width, $bp-large + 1) {
+        display: none;
+    }
+}
+.hide-mobile {
+    @include bp(max-width, $bp-small) {
+        display: none;
+    }
+}
+.hide-tablet {
+    @include bp(min-width, $bp-small + 1) {
+        @include bp(max-width, $bp-large) {
+            display: none;
+        }
+    }
+}
+.hide-desktop {
+    @include bp(min-width, $bp-large + 1) {
+        display: none;
+    }
+}

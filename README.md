@@ -3,6 +3,9 @@
 ## Requirements
 	
 Working perfectly with: https://github.com/DamianRK/magento-gulp-sass
+Requires:
+* bp() mixin
+* $bp-xsmall, $bp-small, $bp-medium, $bp-large, $bp-xlarge
 
 ## Usage
 
