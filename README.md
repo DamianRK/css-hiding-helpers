@@ -22,6 +22,10 @@ Class name      | Description           | Default range
 .hide-desktop   | Hide on $bp-desktop   | 979px < x 
 
 
+## Installation
+
+    bower install css-hiding-helpers
+    
 ### Authors ###
 
 * Damian Bogdanowicz <damian.bogdanowicz@gmail.com>
